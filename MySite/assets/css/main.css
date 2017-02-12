@@ -1,8 +1,11 @@
-    body{
-        background: yellow;
-    }
-    
+
+
     *  {
         margin:0;
         padding: 0;
+        outline: none;
     }
+       body{
+            background:  #193547 ;
+            //url("../img/bg.png")
+        }
