@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+form {
+  background-color: pink;
+  border:3px solid red;
+  display:inline-block;
+  color:red;
+ }
+
+.wrap {
+  margin:25px 60px 20px 20px;
+}
+
+.main{
+  padding:25px 60px 15px 20px;
+  border-bottom:1px solid #fff;
+  font-size:24px;
+}
+
+input[type="email"]{
+  width:320px;height:20px;
+  border:1px solid #abadb3;
+}
+
+.pass{
+  width:150px;
+  display:inline-block;
+  margin:20px 0 30px 0;
+}
+
+.first-pass{
+  margin-right:16px;
+}
+
+input[type="password"]{
+  width:150px;height:20px;
+  border:1px solid #abadb3;
+}
+
+input[type="submit"]{
+ display:block;
+ padding:5px 10px;
+ font-size:15px;
+ border:none;
+ background-color:#ffdf7f;
+}
