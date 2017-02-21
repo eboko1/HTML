@@ -21,7 +21,8 @@ form {
 }
 
 input[type="email"]{
-  width:320px;height:20px;
+  width:320px;
+  height:20px;
   border:1px solid #abadb3;
 }
 
