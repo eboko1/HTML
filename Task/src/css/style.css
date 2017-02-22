@@ -13,3 +13,7 @@ body {
 h3 {
   color: pink;
 }
+
+.input[name="a"]{
+padding: 40px;
+}
