@@ -1,0 +1,30 @@
+
+
+body {
+margin: 0;
+padding: 0;
+background-image: url(../img/bg.jpg) ;
+
+background-color:#EAEAEA;
+background-repeat: repeat-y;
+background-repeat: no-repeat;
+background-position: center top;
+background-attachment: fixed;
+
+}
+#page_align {
+font-family: Arial, Calibri,  Tahoma;
+font-size: 12px;
+color: black;
+width: 495px;
+height: 195px;
+background: rgba(255,255,255,.6);
+margin: 10px auto;
+padding: 5px;
+
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+-moz-border-radius: 5px;
+
+}
