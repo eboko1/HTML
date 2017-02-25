@@ -6,10 +6,30 @@ body{
 color: red;
 }
 .select{
-color: green;
+color: black;
 background-color: yellow;
-border: 1px solid pink;
+border: 1px solid red;
 font-size: 24px;
-margin: 10px;
-padding:15px;
+margin-left: 70px;
+margin-right: 70px;
+margin-top: 20px;
+padding: 15px;
+}
+.class{
+background-color: orange;
+}
+.tag{
+background-color: brown;
+}
+.attribute{
+background-color: grey;
+}
+.position{
+background-color: green;
+}
+.other{
+background-color: pink;
+}
+.select:hover{
+border: 5px solid red
 }
