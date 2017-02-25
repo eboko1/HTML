@@ -4,19 +4,43 @@
     <meta charset="UTF-8">
     <title>Інпути</title>
 </head>
-<body>
+<form action="form.html" method="post" novalidate autocomplete="on">
 
 <h1>ІНПУТИ</h1>
 
 <h2>Текстові інпути в яким можна написати однку строку</h2>
-Текстове поле:<input type="name" value="введіть ім'я"><br>
-Поле-пароль:<input type="password" value="password"><br>
-Поле для email:<input type="email" ><br>
-Поле для URL:<input type="url" ><br>
-Поле для пошуку::<input type="search"><br>
-Поле для телефона:<input type="tel" ><br>
+Текстове поле:    <input type="name" placeholder="Ваше ім'я" autocomplete="on" size="150" maxlength="10"><br>
+Поле-пароль:      <input type="password" value="password"><br>
+Поле для email:   <input type="email" placeholder="Ваш email"><br>
+Поле для URL:     <input type="url" ><br>
+Поле для пошуку:  <input type="search"><br>
+Поле для телефона:<input type="tel" required ><br>
+<h3>АТРИБУТИ</h3>
 
+<dl>
+    <dt>required</dt>
+    <dd>обовязкове поле для заповнення</dd>
+    <dt>placeholder</dt>
+    <dd>підсказка на полі (placeholder="Ваше ім'я") </dd>
+
+</dl>
 <h2>Інпути, які не містять вводу тексту</h2>
+Чекбокс:             <input type="checkbox"><br>
+Файл:                <input type="file"><br>
+Колір:               <input type="color"><br>
+Сховане поле:        <input type="hidden"><br>
+Числове поле:        <input type="number"><br>
+Радіо-кнопка:        <input type="radio"><br>
+Ввід дати з часом:   <input type="datatime"><br>
+Ввід дати без часу:  <input type="data"><br>
+Поле-діапазон:       <input type="range"><br>
+Контроль ввода дати: <input type="datatime-local"><br>
+Ввід місяця:         <input type="month"><br>
+Ввід часу:           <input type="time"><br>
+Ввід тижня:          <input type="week"><br>
 
+<h2>КНОПКИ</h2>
+
+</form>
 </body>
 </html>
