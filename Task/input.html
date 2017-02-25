@@ -4,43 +4,90 @@
     <meta charset="UTF-8">
     <title>Інпути</title>
 </head>
-<form action="form.html" method="post" novalidate autocomplete="on">
+    <body>
+        <form action="form.html" method="post" autocomplete="on" >
 
-<h1>ІНПУТИ</h1>
+            <h1>ІНПУТИ</h1>
 
-<h2>Текстові інпути в яким можна написати однку строку</h2>
-Текстове поле:    <input type="name" placeholder="Ваше ім'я" autocomplete="on" size="150" maxlength="10"><br>
-Поле-пароль:      <input type="password" value="password"><br>
-Поле для email:   <input type="email" placeholder="Ваш email"><br>
-Поле для URL:     <input type="url" ><br>
-Поле для пошуку:  <input type="search"><br>
-Поле для телефона:<input type="tel" required ><br>
-<h3>АТРИБУТИ</h3>
+            <h2>Текстові інпути в яким можна написати однку строку</h2>
+            Текстове поле:    <input type="name" placeholder="Ваше ім'я" autocomplete="on" size="150" maxlength="10"><br>
+            Поле-пароль:      <input type="password" value="password"><br>
+            Поле для email:   <input type="email" placeholder="Ваш email"><br>
+            Поле для URL:     <input type="url" ><br>
+            Поле для пошуку:  <input type="search"><br>
+            Поле для телефона:<input type="tel" required ><br>
+            <h3>АТРИБУТИ</h3>
+            <dl>
+                <dt>required</dt>
+                <dd>обов'язкове поле для заповнення (required)</dd>
+                <dt>placeholder</dt>
+                <dd>підсказка на полі (placeholder="Ваше ім'я") </dd>
+            </dl>
 
-<dl>
-    <dt>required</dt>
-    <dd>обовязкове поле для заповнення</dd>
-    <dt>placeholder</dt>
-    <dd>підсказка на полі (placeholder="Ваше ім'я") </dd>
+            <h2>Інпути, які не містять вводу тексту</h2>
+            Чекбокс 1:             <input type="checkbox" name="ch1"><br>
+            Чекбокс 2:             <input type="checkbox" name="ch1"><br>
+            Чекбокс 3:             <input type="checkbox" name="ch1" checked><br>
+            Радіо-кнопка 1:        <input type="radio" name="r1" value="1" required><br>
+            Радіо-кнопка 2:        <input type="radio" name="r1" value="2" checked><br>
+            Радіо-кнопка 3:        <input type="radio" name="r1" value="3" checked><br>
+            <h3>АТРИБУТИ</h3>
+            <dl>
+                <dt>checked</dt>
+                <dd>відмічена за замовчуванням кнопка</dd>
+                <dt>required</dt>
+                <dd>обов'язкове поле для заповнення (required) </dd>
+            </dl>
 
-</dl>
-<h2>Інпути, які не містять вводу тексту</h2>
-Чекбокс:             <input type="checkbox"><br>
-Файл:                <input type="file"><br>
-Колір:               <input type="color"><br>
-Сховане поле:        <input type="hidden"><br>
-Числове поле:        <input type="number"><br>
-Радіо-кнопка:        <input type="radio"><br>
-Ввід дати з часом:   <input type="datatime"><br>
-Ввід дати без часу:  <input type="data"><br>
-Поле-діапазон:       <input type="range"><br>
-Контроль ввода дати: <input type="datatime-local"><br>
-Ввід місяця:         <input type="month"><br>
-Ввід часу:           <input type="time"><br>
-Ввід тижня:          <input type="week"><br>
+            Файл: <input type="file" accept="image/*" multiple>
+                <h3>АТРИБУТИ</h3>
+                <dt>accept</dt>
+                <dd>завантажувати  аудіо файли (accept = "audio/*")<br>
+                    завантажувати  фото        (accept = "image/*")<br>
+                    завантажувати  фото форматів png  і jpeg (accept = "image/jpeg, image/png")<br>
+                </dd>
+                <dt>multiple</dt>
+                <dd>вибір декількох фпйлів (multiple)</dd>
 
-<h2>КНОПКИ</h2>
+            Колір:               <input type="color"><br>
+            Сховане поле:        <input type="hidden"><br>
+            Числове поле:        <input type="number"><br>
+            Ввід дати з часом:   <input type="datatime"><br>
+            Ввід дати без часу:  <input type="data"><br>
+            Поле-діапазон:       <input type="range"><br>
+                <h3>АТРИБУТИ</h3>
+                <dl>
+                    <dt>min</dt>
+                    <dd>мінімальне значення (min="100")</dd>
+                    <dt>max</dt>
+                    <dd>максимальне значення (max="3000") </dd>
+                    <dt>step</dt>
+                    <dd> значення змінюватиметься на 200 одиниць (step="200") </dd>
+                </dl>
 
-</form>
-</body>
+            Контроль ввода дати: <input type="datatime-local"><br>
+            Ввід місяця:         <input type="month"><br>
+            Ввід часу:           <input type="time"><br>
+            Ввід тижня:          <input type="week"><br>
+
+            <h2>КНОПКИ</h2>
+            Кнопки без поведінки:        <input type="button"><br>
+            Графічна кнопка відправити:  <input type="image"><br>
+                <dl>
+                    <dt>alt</dt>
+                    <dd>альтернативний текст (alt="Spring - ВЕСНА")</dd>
+                    <dt>width</dt>
+                    <dd>ширина фото (width = "500")</dd>
+                    <dt>height</dt>
+                    <dd>висота фото (height = "250") </dd>
+                    <dt>src</dt>
+                    <dd>шлях до фото  </dd>
+
+                </dl>
+            Кнопка для очищення форми:   <input type="reset"><br>
+            Кнопка для відправки форми:  <input type="submit"><br>
+
+
+        </form>
+    </body>
 </html>

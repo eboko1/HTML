@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <title>Форми</title>
 </head>
-<body>
+ <body>
+    <h1>ФОРМИ</h1>
 
-<form>
-<input type="name" value="введіть ім'я"><br>
-<input type="password" value="password"><br>
-<input type="submit" value="Sing in"><br>
-</form>
+    <form action="" method="post" autocomplete="on" >
+        <input type="name" placeholder="Ваше ім'я" list="namesList"><br>
+        <input type="password" value="password"><br>
+        <input type="submit" value="Sing in"><br>
+
+        <datalist id="namesList">
+            <option value="Віка">
+            <option value="Вікторія">
+            <option value="Вероніка">
+            <option value="Валентина">
+            <option value="Василь">
+        </datalist>
 
 
 
-</body>
+     </form>
+
+    <h3>АТРИБУТИ</h3>
+    <dl>
+        <dt>action </dt>
+        <dd>...........................(action="form.html" )</dd><br>
+        <dt>method </dt>
+        <dd>............................(method="post") </dd><br>
+        <dt>name</dt>
+        <dd> ім'я форми (name="registration")</dd><br>
+        <dt>novalidate </dt>
+        <dd>............................. (novalidate) </dd><br>
+
+        <dt>autocomplete</dt>
+        <dd>............................. (autocomplete="on")<br>
+            ..............................(autocomplete="off")<br>
+        </dd>
+    </dl>
+
+ </body>
 </html>
