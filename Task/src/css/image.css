@@ -138,3 +138,22 @@ overflow:hidden;
 .slr{
 clear: both;
 }
+
+input[name="name"]{
+margin-left: 10px;
+height: 30px;
+width: 180 px;
+border-radius: 3px;
+border: 1px solid pink;
+box-shadow: none;
+transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+
+}
+input[name="name"]:focus {
+
+outline: none;
+box-shadow: 0px 0px 9px black;
+height: 100px;
+}
