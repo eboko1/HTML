@@ -94,7 +94,9 @@ color: yellow;
 }
 
 #img{
-margin: 10px;
+margin-left: 10px;
+margin-top: 10px;
+position: relative;
 }
 
 #img h2{
@@ -113,6 +115,16 @@ margin-left: 210px;
 margin-right: 10px;
 font-size: 16px;
 color: #703865;
+}
+
+#img span{
+position: absolute;
+bottom: 2px;
+background: rgba(0,0,0,0.2);
+color: white;
+width: 195px;
+line-height: 30px;
+padding-left: 5px;
 }
 
 .img{
