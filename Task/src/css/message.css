@@ -4,9 +4,11 @@ height:80px;
 margin: 10px;
 border-color: red;
 border-radius: 3px;
+
 }
 
 .sub{
+background-color: pink;
 color: red;
 margin-left: 335px;
 border-color:red;
